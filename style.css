@@ -1,0 +1,67 @@
+* {
+    Padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(46, 34, 26);
+}
+header{
+    background-color:solid rgb(46, 34, 26);
+    border-bottom: 3px solid seagreen;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: solid rgb(46, 34, 26);
+    border-top: 3px solid seagreen;
+    text-align: center;
+    padding: 10px;
+}
+article {
+    background-color: seagreen;
+    margin: 0 auto 20px;
+    border: 2px solid rgb(46, 34, 26);
+    padding: 50px;
+    width: 70%;
+    border-radius: 25px;
+}
+nav{
+    list-style-type: none
+}
+.nav-bar, .nav-link {
+    display: inline;
+    color: black;
+}
+#brand-title{
+    margin-right: 20px;
+}
+a{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+    color: teal;
+}
+main {
+    text-align: center;
+}
+form{
+   border: 2px dotted black;
+   width: 75%;
+   margin: 0 auto 25px;
+   border-radius: 25px;
+   padding: 15px;
+}
+.form-label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input, textarea{
+    padding: 5px;
+    border-radius: 5px;
+}
+#profile-picture{
+    border-radius: 25%;
+    border: 2px solid gray;
+}
